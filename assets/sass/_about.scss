@@ -1,0 +1,45 @@
+@media screen and (max-width: 1220px){
+	#logos{ 
+		.logos{
+	
+	       img {
+	       	margin-right:30px; 
+	          }
+          } 
+       }
+
+	}
+#about{
+	min-height:1656px;
+	background:white;
+	border-bottom:1px solid #F0F0F0;
+
+	.tab li {
+		list-style: none;
+		text-decoration: none;
+		display: inline-block;
+		// padding:20px;
+		border:1px solid #F0F0F0;
+		margin-top: 62px;
+		// width: 183px;
+		cursor: pointer;
+		margin-right: 0;
+		margin-bottom: 50px;
+		&:hover{
+			color:white;
+			background:#1AC6FF;
+		}
+
+		&:first-child{
+			color:white;
+			background:#1AC6FF;
+	
+		}
+
+	}
+	.tab li a {
+		padding: 40px;
+		width: 183px;
+		line-height: 4;
+	}
+}

@@ -1,0 +1,52 @@
+#home{
+	min-height:660px;
+	background:url('images/bg.jpg') no-repeat;
+	background-size:cover;
+	ul li {
+		text-align: center;
+		color: white;
+		
+		list-style: none;
+		
+		font-size: 52px;
+		&:first-child{margin-top:150px;}
+
+		h1{
+			font-size: 55px;
+			font-weight: 100;
+		}
+
+	}
+.launch{
+	color:#19C5FF;
+}	
+.buton1{
+	background-color: #1ac6ff;
+	text-transform: uppercase;   
+	 line-height: 2;
+	 color:white;
+	 width: 212px;
+	 &:hover{
+	 	color:white;
+	 }
+	 span{
+	 	margin-right: 3px;	 }
+}
+.buton2{
+	color:white;
+	border:1px solid white;
+	 line-height: 2;
+	 margin-left: 8px;
+	 width: 145px;
+	 &:hover{
+	 	background:white;
+	 	color:#19C5FF;
+	 }
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar li {
+    padding: 17px 0;
+}
+}

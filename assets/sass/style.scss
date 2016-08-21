@@ -1,0 +1,184 @@
+body {
+	
+	background-attachment:fixed;
+	
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    position: relative;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+
+}
+// imports
+@import 'menu';
+@import 'home'; 
+@import 'about';
+@import 'features';
+@import 'prices';
+@import 'feedback';
+@import 'team';
+@import 'contact';
+
+
+//=================scroll-menu======================
+.fixed-nav{ 
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	border-bottom:1px solid #E3E3E3;
+	.menu ul li a{color: black;
+	} 
+    }
+   
+
+.fixed-nav .navbar-default{ 
+	background-color: white;
+	background-image: url("assets/images/Screenshot_3.png");
+}
+//================ navbar logo===============
+  .logo img { 
+ margin-right:24px;
+ margin-top:13px;
+ }
+.nav > li > a {
+    
+     display: block; }
+// ===============home un altindaki logo============
+#logos{
+	background:#F0F0F0;
+	height:124px;
+	img {margin-right:60px;
+		margin-top: 27px;
+
+	}
+}
+.highlight{
+	color:#1AC6FF;
+}
+.batn li {
+	    list-style: none;
+		text-decoration: none;
+		display: inline-block;
+		padding:15px;
+		width: 160px;
+		border:1px solid #1AC6FF;
+		border-radius:5px;
+		background:white;
+		color:#1AC6FF;
+
+		cursor: pointer;
+		margin-right: 0;
+}
+// =================newsletter===================
+#newsletter{
+	h2, .h2 {
+    font-size: 40px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 35px;
+    // margin-bottom: 19px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white;
+}
+p {
+    margin: 9px 0 36px;
+    color:white;
+    position:relative;
+    left: 8%;
+}
+.name{
+	width:186px;
+	height:50px;
+	margin-top:48px;
+	text-align:center;
+	border:none;
+	border-left:2px solid #19C5FF;
+}
+.email{
+	width:46%;
+	height:50px;
+	margin-top:48px;
+	text-align:center;
+	border:none;
+	border-left:2px solid #19C5FF;
+
+}
+.gonder{
+	width:144px;
+	height:50px;
+	margin-top:48px;
+	text-align:center;
+	background:transparent;
+	border:1px solid white;
+	color:white;
+	&:hover{
+		background:white;
+		color:#19C5FF;
+	}
+
+}
+}
+// =======================launchh======================
+#launchh{
+	background: #1AC6FF;
+	min-height: 142px;
+	h1{
+		font-weight: 100;
+		font-size: 40px;
+
+	}
+	button{
+		border:1px solid white;
+		background: #1AC6FF;
+		width: 185px;
+		padding: 12px;
+		margin-right: 60px;
+		color:white;
+		margin-top:-76px; 
+		border-radius: 3px;
+		&:hover{
+			background: white;
+			color:#1AC6FF;
+		}
+	}
+}
+
+
+
+	#logos .logos .tek {
+      transform: translateY(-44px);
+      transition: all .5s ease; }
+    #logos .logos .cut {
+      transform: translateY(44px);
+      transition: all .5s ease; }
+ #StartUp_left {
+  transition: all .5s ease;
+  transform: translateX(-600px); }
+
+#StartUp_right {
+  transition: all .5s ease;
+  transform: translateX(600px); }
+ #NewAge_left {
+  transition: all .5s ease;
+  transform: translateX(600px); }
+
+#NewAge_right {
+  transition: all .5s ease;
+  transform: translateX(-600px); }
+
+#Helmet_left {
+  transition: all .5s ease;
+  transform: translateX(-600px); }
+
+#Helmet_right {
+  transition: all .5s ease;
+  transform: translateX(600px); }
