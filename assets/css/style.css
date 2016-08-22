@@ -143,16 +143,15 @@ body {
     cursor: pointer;
     margin-right: 0;
     margin-bottom: 50px; }
-    #about .tab li:hover {
-      color: white;
-      background: #1AC6FF; }
-    #about .tab li:first-child {
-      color: white;
-      background: #1AC6FF; }
   #about .tab li a {
     padding: 40px;
     width: 183px;
-    line-height: 4; }
+    line-height: 4;
+    color: #606060; }
+  #about .active {
+    background: #1AC6FF; }
+    #about .active a {
+      color: white; }
 
 #tab-content .content {
   display: none; }
@@ -450,7 +449,13 @@ body {
   transition: all .5s ease;
   transform: translateX(600px); }
 
-#tab-content .content {
-  display: none; }
+.enbasa {
+  position: fixed;
+  top: 90%;
+  left: 93%;
+  display: none;
+  cursor: pointer; }
+  .enbasa img:hover {
+    opacity: 2.5; }
 
 /*# sourceMappingURL=style.css.map */

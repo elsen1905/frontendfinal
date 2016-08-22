@@ -25,22 +25,21 @@
 		cursor: pointer;
 		margin-right: 0;
 		margin-bottom: 50px;
-		&:hover{
-			color:white;
-			background:#1AC6FF;
-		}
-
-		&:first-child{
-			color:white;
-			background:#1AC6FF;
-	
-		}
-
 	}
 	.tab li a {
 		padding: 40px;
 		width: 183px;
 		line-height: 4;
+		color:#606060;
 	}
+
+.active{
+			
+			background:#1AC6FF;
+			a{
+			color:white;
+			}
+	
+		}
 }
   #tab-content .content {  display: none;  }

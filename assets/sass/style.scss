@@ -183,4 +183,13 @@ p {
 #Helmet_right {
   transition: all .5s ease;
   transform: translateX(600px); }
-  #tab-content .content {  display: none;  }
+.enbasa{
+	position: fixed;
+	top:90%;
+	left: 93%;
+	display: none;
+	cursor: pointer;
+	img:hover{
+		opacity: 2.5;
+	}
+}

@@ -1,7 +1,10 @@
 $(document).ready(function(){
    // ================tab funksiyasi===================
 
-    $('#tab-head ul li:first').addClass('active');
+
+
+
+  $('#tab-head ul li:first').addClass('active');
     $('.content:first').show();
     
     $('#tab-head ul li a').click(function(){
@@ -9,9 +12,8 @@ $(document).ready(function(){
         $('#tab-head ul li').removeClass('active');
         $(this).parent().addClass('active');
         $('.content').hide();
-        $(id).fadeIn();
+        $(id).fadeIn(2000);
     });
-
 
 
     // ==================dripdownmenu====================
@@ -81,7 +83,15 @@ $(this).find('.dropdown-menu').stop(true, true).delay(200).slideUp(500);
    });
 
 
-
+   $(window).scroll(function (event) {
+    var enbasa = $(window).scrollTop();
+    if (enbasa > 550) {
+      $(".enbasa").show();
+    }else{
+      $(".enbasa").hide()
+     // body...
+    }
+   })
 
 
    // body...
