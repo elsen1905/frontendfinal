@@ -154,6 +154,9 @@ body {
     width: 183px;
     line-height: 4; }
 
+#tab-content .content {
+  display: none; }
+
 #features {
   min-height: 1150px;
   background: white;
@@ -196,6 +199,7 @@ body {
     /* Safari */
     transform: rotateX(150deg);
     /* Standard syntax */
+    transform-origin: bottom;
     transition: all 1.3s ease; }
   #features .row1 {
     padding-top: 100px;
@@ -445,5 +449,8 @@ body {
 #Helmet_right {
   transition: all .5s ease;
   transform: translateX(600px); }
+
+#tab-content .content {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
