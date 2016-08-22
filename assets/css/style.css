@@ -355,7 +355,8 @@ body {
   margin-right: 0; }
 
 #newsletter h2, #newsletter .h2 {
-  font-size: 40px; }
+  font-size: 40px;
+  overflow: hidden; }
 #newsletter h1, #newsletter .h1, #newsletter h2, #newsletter .h2, #newsletter h3, #newsletter .h3 {
   margin-top: 35px; }
 #newsletter h1, #newsletter h2, #newsletter h3, #newsletter h4, #newsletter h5, #newsletter h6, #newsletter .h1, #newsletter .h2, #newsletter .h3, #newsletter .h4, #newsletter .h5, #newsletter .h6 {
